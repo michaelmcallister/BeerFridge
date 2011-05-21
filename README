@@ -1,0 +1,19 @@
+This is a graphical representation of a beer fridge:
+
+--Adding 'Beer'--
+*Click Add Supplier
+*Enter a name when prompted 
+*Click OK
+
+The 'Beer Fridge' will now fill up, each supplier supplies 5 cartons, within each carton contains 25 beers
+
+--Drinking 'Beer'--
+*Click Add Drinker
+*Enter a name when prompted 
+*Click OK
+
+The Beers will now begin to run out, a counter in the top title bar will tell you how many beers have been drunk, and how many have been supplied. Each drinker can drink a maximum of 15 drinks.
+
+Each drinker and supplier has its own thread, there is a random delay between each drink the drinker has.
+
+Fully commented with javadoc comments
